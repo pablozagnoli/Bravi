@@ -1,0 +1,68 @@
+# .NET Core / .NET Standard
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.exe.config
+*.deps.json
+*.runtimeconfig.json
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# .NET Core generated files
+Generated\ Files/
+
+# .NET Core 3.1/5.0 Sdk user agent detection cache
+.dotnet/
+
+# .NET Core tooling used by VS2017+
+.project/
+
+# .NET Core Auto generated files
+**/Properties/launchSettings.json
+
+# .NET Core Temporary
+**/[Tt]emporary [Dd]ebug/
+**/[Oo]bsolete/
+**/[Tt]est[Pp]ublish/
+
+# .NET Core CLI Tools
+dotnet-*/
+
+# Windows Forms Designer generated files
+**/*.exe
+**/*.exe.manifest
+**/*.exe.config
+**/*.pdb
+**/*.resx
+**/*.resources
+**/*.rsg
+**/*.tlb
+**/*.tlh
+**/*.bak
+**/*.cache
+**/*.log
+**/*.vspscc
+*.Design.cs
